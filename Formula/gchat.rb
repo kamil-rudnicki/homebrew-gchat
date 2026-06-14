@@ -1,26 +1,26 @@
 class Gchat < Formula
   desc "Script-first Google Chat CLI"
   homepage "https://github.com/kamil-rudnicki/google-chat-cli"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.0/gchat-aarch64-apple-darwin.tar.gz"
-      sha256 "35aa6e2aede105e0323abec138b22976655f60b754065bdcd003b47f239652d1"
+      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.1/gchat-aarch64-apple-darwin.tar.gz"
+      sha256 "649667a5463f8cc0d15ba8c11d92146305967331e32419a63d31490f80b680d8"
     else
-      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.0/gchat-x86_64-apple-darwin.tar.gz"
-      sha256 "73cfcea42071016a49ea5d792cf279a6f38aebbc54cb9341720af7b099210b2d"
+      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.1/gchat-x86_64-apple-darwin.tar.gz"
+      sha256 "9f94ea8724a05a725030a422bf5ae8c4356ae3fc262decdc899ca5c84c70558a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.0/gchat-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "da4b0c129b5f4c6214906fedc51fc790336718080b1e0aa26203fed46bcb545b"
+      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.1/gchat-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "09fc0d0e2bbadc5551c909844272c2dcffd5e42f168e9f2bec790507b9135b58"
     else
-      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.0/gchat-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "123eca55a50c64b94770e383cb1323014280ed8cebd14a5ed6cdd5e0f223c721"
+      url "https://github.com/kamil-rudnicki/google-chat-cli/releases/download/v1.1.1/gchat-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "26a49bfb2d67052e943bf94611b025f8e799216e68129c9ebccfa464baa7f0b9"
     end
   end
 
